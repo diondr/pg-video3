@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PG Video 3</title>
     <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
     <script type="text/javascript" charset="utf-8">
-        function playLocalVideo(){
+        function playLocalVideo() {
             VideoPlayer.play("file:///android_asset/www/mov_bbb.mp4");
         }
+
+        function playLocalVideo2() {
+            VideoPlayer.play("file:///android_asset/www/vid_for_try_1.m4v");
+        }
+
+        function playVideoInside() {
+            VideoPlayer.play("file:///android_asset/www/assets/videos/mov_bbb_1.mp4");
+        }
+
     </script>
 </head>
 
 <body>
     <p>Bismillah</p>
-    <p><button onclick="playLocalVideo();">Play local video</button> </p>
+    <p>
+        <button onclick="playLocalVideo();">Play local video</button>
+    </p>
+    <p>
+        <button onclick="playLocalVideo2();">Play local video m4v</button>
+    </p>
+    <p>
+        <button onclick="playVideoInside();">Play local video inside folder</button>
+    </p>
 </body>
+
 </html>
