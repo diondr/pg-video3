@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.diondr.pgvideo3" version="1.0.0">
+
+        <name>PG Video 3</name>
+
+        <description>
+            Phonegap video 3
+        </description>
+
+        <author href="http://twitter.com/diondr" email="ikidiondr@gmail.com">
+            diondr
+        </author>
+
+        <gap:platform name="android" />
+
+        <preference name="fullscreen" value="true" />
+        <preference name="LoadingDialog" value="Mohon tunggu, aplikasi sedang diproses." />
+        <preference name="AllowInlineMediaPlayback" value="true" />
+        <preference name="SplashScreenDelay" value="7000" />
+        <preference name="KeepRunning" value="true" />
+
+        <icon src="icon.png" />
+
+        <gap:splash src="splash.png" />
+
+        <gap:plugin name="org.apache.cordova.camera" />
+        <gap:plugin name="org.apache.cordova.media-capture" />
+        <gap:plugin name="org.apache.cordova.device" />
+        <gap:plugin name="org.apache.cordova.device-orientation" />
+        <gap:plugin name="org.apache.cordova.console" />
+        <gap:plugin name="org.apache.cordova.contacts" />
+        <gap:plugin name="org.apache.cordova.device-motion" />
+        <gap:plugin name="org.apache.cordova.file" />
+        <gap:plugin name="org.apache.cordova.file-transfer" />
+        <gap:plugin name="org.apache.cordova.network-information" />
+        <gap:plugin name="org.apache.cordova.media" />
+        <gap:plugin name="org.apache.cordova.inappbrowser" />
+        <gap:plugin name="org.apache.cordova.globalization" />
+        <gap:plugin name="org.apache.cordova.dialogs" />
+        <gap:plugin name="org.apache.cordova.splashscreen" />
+        <gap:plugin name="org.apache.cordova.vibration" />
+
+        <gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
+
+        <access origin="*" />
+    </widget>
